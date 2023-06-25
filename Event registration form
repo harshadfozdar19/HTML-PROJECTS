@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form>
+
+    <h1>Event registeration</h1>
+<br>
+<br>
+<label for="Name">Enter Name </label>
+<input type="text" id="name" name="name">
+    
+<br>
+<br>
+
+<label for="email">Enter Email</label>
+<input type="text" id="email" name="email">
+
+<br>
+<br>
+<p> phone </p>
+<table border="1">
+    <tr>
+    <td> 
+        <select>
+        
+            <option  value="phone"> +91</option>
+        
+            <option  value="phone"> +65</option>
+        
+            <option  value="phone"> +912</option>
+    
+        </select> 
+    </td>
+    <td>
+    <label for="Phone"> </label>
+    <input type="tel" pattern="+91[6-9]{1}-[0-9]{9}" id="Phone" name="Phone" maxlength="10">
+    </td>
+
+    </tr>
+
+</table>
+
+<br>
+<br>
+
+<label for="Occupation">Enter Occupation </label>
+<select name="Occupation" id="Occupation">
+    <option value="helper"> helper</option>
+    <option value="employee">employee</option>
+    <option value="manager">manager</option>
+    <option value="intern">intern</option>
+</select>
+
+<br>
+<br>
+<p>Topic of Intrest:</p>
+<label for="checkbox1"> HTML</label>
+<input type="checkbox"  name="checkbox" id="checkbox1">
+
+<label for="checkbox2">CSS </label>
+<input type="checkbox"  name="checkbox" id="checkbox2">
+
+<label for="checkbox3">JAVASCRIPT</label>
+<input type="checkbox"  name="Tcheckbox" id="checkbox3">
+
+<br>
+<br>
+<!-- <label for="feedback"></label>
+<input type="textarea" name="Comments" id="feedback"> -->
+
+<textarea name="Comments" id="10" placeholder="enetr your comments here:" rows="10" cols="10"></textarea>
+
+<button>register</button>
+
+   </form> 
+
+
+</body>
+</html>
