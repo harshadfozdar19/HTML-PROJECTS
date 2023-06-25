@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <form>
+
+
+        <h1>Job Application</h1>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <br>
+            <br>
+            <label for="Name">Enter Name </label>
+            <input type="text" id="name" name="name">
+                
+            
+            
+            <label for="email">Enter Email</label>
+            <input type="email" id="email" name="email">
+            
+           
+           
+            <label for="Phone"> Phone</label>
+                    <select>
+                    
+                        <option  value="phone"> +91</option>
+                    
+                        <option  value="phone"> +65</option>
+                    
+                        <option  value="phone"> +12</option>
+                
+                    </select> 
+           
+               
+                <input type="tel" pattern="+91[6-9]{1}-[0-9]{9}" id="Phone" name="Phone" maxlength="10">
+                <br>
+                <label for="DOB">Date of Birth</label>
+                <input type="date" id="DOB" name="DOB">
+                <br>
+                <span>Gender</span> <label for="Gender1"> male</label>
+                <input type="radio" name="Gender"  id="Gender1" >
+                
+                <label for="Gender2">Female </label>
+                <input type="radio" name="Gender"  id="Gender2" > 
+                
+
+
+                <br>
+                <label for="country"> country</label>
+                <select>
+                
+                    <option  value="INDIA"> INDIA</option>
+                
+                    <option  value="USA"> USA</option>
+                
+                    <option  value="CHINA"> CHINA</option>
+            
+                </select> 
+        </fieldset>
+
+<fieldset>
+
+    <legend>Address</legend>
+
+            <br>
+            <br>
+            <label for="area">Street </label>
+            <input type="text" id="area" name="area">
+
+            
+            <label for="city">city </label>
+            <input type="text" id="city" name="city">
+
+           
+            <label for="state">state </label>
+            <input type="text" id="state" name="state">
+
+           
+            <label for="code">Zip Code </label>
+            <input type="text" id="code" name="code">
+</fieldset>
+
+
+<fieldset>
+<legend>Other Information</legend>
+
+    <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+
+    <label for="checkbox">I agree to terms of services</label>
+    <input type="checkbox" id="checkbox">
+</fieldset>
+
+<button>Submit</button>
+
+
+    </form>
+
+</body>
+</html>
