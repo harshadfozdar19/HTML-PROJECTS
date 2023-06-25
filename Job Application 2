@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<form>
+
+    <h1>Job Application</h1>
+    <br>
+    <br>
+    <label for="Name">Enter Name </label>
+    <input type="text" id="name" name="name">
+        
+    <br>
+    <br>
+    
+    <label for="email">Enter Email</label>
+    <input type="text" id="email" name="email">
+    
+    <br>
+    <br>
+    <!-- <p> phone </p> -->
+    <label for="Phone"> Phone</label>
+            <select>
+            
+                <option  value="phone"> +91</option>
+            
+                <option  value="phone"> +65</option>
+            
+                <option  value="phone"> +12</option>
+        
+            </select> 
+    
+       
+        <input type="tel" pattern="+91[6-9]{1}-[0-9]{9}" id="Phone" name="Phone" maxlength="10">
+        
+        <br>
+        <br>
+     
+<p>Resume</p>
+<label for="upload">upload</label>
+<input type="file" id="upload">
+<br>
+<br>
+
+<label for="counter">Experience (years)</label>
+<input type="number" id="counter" name="counter" min="0" max="50">
+<br>
+<br>
+
+<fieldset>
+    <legend>skills</legend>
+    <br>
+    
+    <label for="100">HTML</label>
+    <input type="checkbox" id="100" name="HTML">
+<br>
+<br>
+
+    <label for="101">CSS</label>
+    <input type="checkbox" id="101" name="CSS">
+    <br>
+    <br>
+    <label for="103">JAVASCRIPT</label>
+    <input type="checkbox" id="103" name="JAVASCRIPT">
+<br>
+</fieldset>
+
+
+<br>
+<br>
+
+<label for="education">Education:</label>
+<select name="education" id="education">
+    <option value="high school">high school</option>
+    <option value="college">college</option>
+    <option value="job">job</option>
+
+</select> 
+<br>
+<br>
+
+<p>Availability</p>
+<label for="checkbox1"> Full time</label>
+<input type="radio" name="radio"  id="checkbox1" >
+
+<label for="checkbox2">Part time </label>
+<input type="radio" name="radio"  id="checkbox2" >
+<br>
+<br>
+<label for="100">Additional Comments</label>
+<br>
+
+<textarea name="Additional Comments" id="100" cols="30" rows="10"></textarea>
+
+
+<button>Submit Application</button>
+
+
+
+
+
+
+
+
+
+
+</form>
+</body>
+</html>
